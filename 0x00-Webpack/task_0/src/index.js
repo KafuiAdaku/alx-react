@@ -8,6 +8,6 @@ $(document).ready(function() {
     ];
 
     paragraphs.forEach(paragraph => {
-        $("body").append(`<p>${text}</p>`);
+        $("body").append(`<p>${paragraph}</p>`);
     });
 });
