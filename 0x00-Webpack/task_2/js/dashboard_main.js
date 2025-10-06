@@ -4,11 +4,11 @@ import "../css/main.css";
 
 $(document).ready(function() {
     // Add logo at the top
-    $("body").preppend("<div id='logo'></div>");
+    $("body").prepend("<div id='logo'></div>");
 
     $("body").append("<p>ALX Dashboard</p>");
     $("body").append("<p>Dashboard data for the students</p>");
-    $("body").append("<button'>Click here to get started</button>");
+    $("body").append("<button>Click here to get started</button>");
     $("body").append("<p id='count'></p>");
     $("body").append("<p>Copyright - ALX</p>");
 
