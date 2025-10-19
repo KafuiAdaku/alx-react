@@ -11,7 +11,7 @@ $(document).ready(function() {
     // Function to update click count
     function updateCounter() {
         count++;
-        $("#count").text(`${count} click on the button`);
+        $("#count").text(`${count} clicks on the button`);
     }
 
     // Lodash debounce to limit number of times clicks are counted
